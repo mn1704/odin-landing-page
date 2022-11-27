@@ -1,0 +1,178 @@
+body {
+  font-family: arial, monospace;
+  margin: 0px;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+}
+
+footer {
+  display: flex;
+  height: 80px;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+#h3-div {
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+#submit {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 150px;
+  font-size: 18px;
+}
+
+#submit-2 {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  height: 35px;
+  width: 150px;
+  font-size: 18px;
+}
+
+#upper-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-text {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#header-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  font-size: 18px;
+}
+
+#third {
+  background-color: #e5e7eb;
+}
+
+#quote-section {
+  width: 900px;
+}
+#quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 200;
+}
+
+#quote-author {
+  font-size: 25px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+#call-to-action-box {
+  background-color: #3882f6;
+  width: 60%;
+  height: 35%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.height {
+  height: 500px;
+}
+#logo {
+  font-size: 25px;
+}
+
+#main-text {
+  font-size: 48px;
+  margin: 0;
+}
+
+#secondary-text {
+  color: lightgray;
+  font-size: 18px;
+}
+
+#image {
+  width: 400px;
+  height: 250px;
+  background-color: gray;
+}
+
+#main-header-divison {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  height: 400px;
+}
+
+#text-div-header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: left;
+  justify-content: center;
+  width: 500px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.white-text {
+  color: white;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  height: 180px;
+  width: 180px;
+  margin: 30px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  border-color: #3882f6;
+}
